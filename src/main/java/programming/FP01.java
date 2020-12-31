@@ -8,10 +8,8 @@ public class FP01 {
 
         List<Integer> numbers = List.of(12,9,13,4,6,2,4,12,15);
 
-        printEvenNumbersInListFunctional(
-                numbers
-
-        );
+        //printEvenNumbersInListFunctional(numbers);
+        printSquaresOfEvenNumbersInListFunctional(numbers);
     }
 
     private static void printAllNumbersInListStructured(List<Integer> numbers) {
@@ -51,6 +49,18 @@ public class FP01 {
                 //Filter - Only Allow Even Numbers
                 //.filter(FP01::isEven)
                 .filter(number -> number%2 == 0) //Lambda expression
+                .forEach(System.out::println);//Method reference
+
+    }
+
+    private static void printSquaresOfEvenNumbersInListFunctional(List<Integer> numbers) {
+        //What to do?
+        numbers.stream()
+                //Filter - Only Allow Even Numbers
+                //.filter(FP01::isEven)
+                .filter(number -> number%2 == 0) //Lambda expression
+                //mapping x -> x2
+                .map(number -> number*number)
                 .forEach(System.out::println);//Method reference
 
     }

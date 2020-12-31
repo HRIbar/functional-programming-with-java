@@ -11,10 +11,12 @@ public class FP01Excercises {
         List<String> courses = List.of("Spring","Spring Boot","API","Microservices","AWS","PCF","Azure",
                 "Docker","Kubernetes");
 
-        //printOddNumbersInListFunctional(numbers);
-        //printAllCoursesInListFunctional(courses);
-        //printAllCoursesSpringInListFunctional(courses);
+        printOddNumbersInListFunctional(numbers);
+        printAllCoursesInListFunctional(courses);
+        printAllCoursesSpringInListFunctional(courses);
         printAllCoursesFourLettersInListFunctional(courses);
+        printQubesOfEvenNumbersInListFunctional(numbers);
+        printAllCoursesLength(courses);
     }
 
     //Excercise 1
@@ -55,6 +57,31 @@ public class FP01Excercises {
         System.out.println("Print All Courses Whose Name has at least 4 letters");
         courses.stream()
                 .filter(course -> course.length()>=4)
+                .forEach(System.out::println);//Method reference
+
+    }
+
+    //Excercise 5
+    private static void printQubesOfEvenNumbersInListFunctional(List<Integer> numbers) {
+        //What to do?
+        System.out.println("Print cubes of even numbers");
+
+        numbers.stream()
+                //Filter - Only Allow Even Numbers
+                //.filter(FP01::isEven)
+                .filter(number -> number%2 == 1) //Lambda expression
+                //mapping x -> x2
+                .map(number -> number*number*number)
+                .forEach(System.out::println);//Method reference
+
+    }
+
+    //Excercise 6
+    private static void printAllCoursesLength(List<String> courses) {
+        //What to do?
+        System.out.println("Print All Courses lengths");
+        courses.stream()
+                .map(course -> course.length())
                 .forEach(System.out::println);//Method reference
 
     }
