@@ -49,7 +49,8 @@ public class FP01 {
         //What to do?
         numbers.stream()
                 //Filter - Only Allow Even Numbers
-                .filter(FP01::isEven)
+                //.filter(FP01::isEven)
+                .filter(number -> number%2 == 0) //Lambda expression
                 .forEach(System.out::println);//Method reference
 
     }
