@@ -1,0 +1,12 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ó¤¢‹
+`
+java:S1144,"ERemove this unused private "printEvenNumbersInListStructured" method.(İÙ »üÿÿÿÿ
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§8í…åŠî.
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(·ùßóıÿÿÿÿ
+V	java:S125$"<This block of commented-out lines of code should be removed.(¡€®Ãùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(·ùßóıÿÿÿÿ
+_
+java:S1144"DRemove this unused private "printAllNumbersInListStructured" method.(œÑÌûÿÿÿÿ
+A
+java:S11448"+Remove this unused private "isEven" method.(ãÆË

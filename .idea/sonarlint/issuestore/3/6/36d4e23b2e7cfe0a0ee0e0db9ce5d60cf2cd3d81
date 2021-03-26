@@ -1,0 +1,18 @@
+
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(´£Ç‘8îµÏÄë.
+g
+java:S1144."ERemove this unused private "printEvenNumbersInListFunctional" method.(­şëúıÿÿÿÿ8æ–ÃËë.
+H
+java:S1144E"+Remove this unused private "isEven" method.(ãÆË8äÁöÊë.
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(´£Ç‘8¡ÌÄë.
+`
+java:S1144"DRemove this unused private "printAllNumbersInListFunctional" method.(çæÅ18¦®ÕÄë.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(·ùßóıÿÿÿÿ8™ÓÑÄë.
+g
+java:S1144$"ERemove this unused private "printEvenNumbersInListStructured" method.(İÙ »üÿÿÿÿ8ÉËäÄë.
+X	java:S125"<This block of commented-out lines of code should be removed.(ùâ•8æ–ÃËë.
+f
+java:S1144"DRemove this unused private "printAllNumbersInListStructured" method.(œÑÌûÿÿÿÿ8ÈïÀÄë.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(·ùßóıÿÿÿÿ8¦–¡Äë.
+]	java:S125"<This block of commented-out lines of code should be removed.(¡€®Ãùÿÿÿÿ8¥ñÌÄë.
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(´£Ç‘8Ü”ÂËë.

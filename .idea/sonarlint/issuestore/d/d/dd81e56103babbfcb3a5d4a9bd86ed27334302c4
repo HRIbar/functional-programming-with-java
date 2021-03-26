@@ -1,0 +1,15 @@
+
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(€Ä­8¢ƒ°Ëë.
+T	java:S106&"9Replace this use of System.out or System.err by a logger.(•ç‰-8ûš­Ëë.
+U	java:S106K"9Replace this use of System.out or System.err by a logger.(´£Ç‘8ŠƒÌËë.
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(´£Ç‘8é¼¤Ëë.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Á½Ñÿ8¬ëªËë.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(´£Ç‘8Ëœ‹Ëë.
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(´£Ç‘8“øËë.
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(¸Şµşÿÿÿÿ8ÈŒÑËë.
+U	java:S106U"9Replace this use of System.out or System.err by a logger.(´£Ç‘8ÈŒÑËë.
+N
+java:S1612T",Replace this lambda with a method reference.(©•‹²ÿÿÿÿÿ8‰ô×Ëë.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(°°Ôòøÿÿÿÿ8à‘¯Ëë.
+U	java:S106("9Replace this use of System.out or System.err by a logger.(´£Ç‘8šº–Ëë.
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(ª«”ƒÿÿÿÿÿ8ÚíÑËë.

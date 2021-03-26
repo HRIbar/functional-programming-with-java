@@ -2,7 +2,7 @@ package programming;
 
 import java.util.List;
 
-public class FP01 {
+public class FP01Functional {
 
     public static void main(String[] args){
 
@@ -64,6 +64,7 @@ public class FP01 {
                 .forEach(System.out::println);//Method reference
 
     }
+
 
     private static boolean isEven(int number){
         return number%2 == 0;

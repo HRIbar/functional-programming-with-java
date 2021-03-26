@@ -1,0 +1,59 @@
+package programming;
+
+import java.util.List;
+
+public class FP01Structural {
+
+    public static void main(String[] args){
+
+        List<Integer> numbers = List.of(12,9,13,4,6,2,4,12,15);
+
+        //printAllNumbersInListStructured(numbers);
+
+        int sum = addListStructured(numbers);
+        System.out.println(sum);
+
+    }
+
+    private static int addListStructured(List<Integer> numbers){
+            //how to loop?
+            //how to store the sum?
+        int sum = 0;
+        for (int number : numbers){
+             sum += number;
+        }
+        return sum;
+    }
+
+    private static void printAllNumbersInListStructured(List<Integer> numbers) {
+        //How to loop the numbers?
+        for (int number: numbers) {
+            System.out.println(number);
+        }
+
+    }
+    /*
+    private static void print(int number){
+        System.out.println(number);
+    }
+
+     */
+
+
+
+    private static void printEvenNumbersInListStructured(List<Integer> numbers) {
+        //How to loop the numbers?
+        for (int number: numbers) {
+            if(number%2==0) {
+                System.out.println(number);
+            }
+        }
+
+    }
+
+
+
+    private static boolean isEven(int number){
+        return number%2 == 0;
+    }
+}
